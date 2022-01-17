@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+body, html {
+    height: 100%;
+}
+.bg-black {
+    background-color: #181818;
+} 
+.background {
+background-image: url("../img/background.jpeg");
+height: 100%;
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}
+
+.body_login {
+    background-color: #1C0C5B;
+}
+
+.login {
+    background-color: #916BBF;
+}
+
+.logo_login {
+    width: 1000px;
+    height: auto;
+}
+
+.p-7 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.px-6 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.br-1 {
+    border-radius: 0.5rem !important;
+}
+
+/* landing homepage */
+.circle {
+    background: #7B7B7B;
+    border-radius: 50%;
+    color: black;
+    display: inline-block;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 50px;
+    margin: 0 auto;
+  }
+  
+  .circle span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+#logo {
+    width: 300px;
+}
+
+.me-21{
+    margin-right: 0.75rem;
+}
+
+/* homepage udh ada nama */
+.welcome {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* ALBERT ====================================================================
+*/
+.detailing{
+    flex-wrap: wrap;
+}
+.row1{
+    display: flex;
+    /* width: 50vw; */
+    flex-wrap: wrap;
+}
+.row2{
+    display: flex;
+    /* width: 40vw; */
+    flex-wrap: wrap;
+} 
+
+.fs-8{
+    font-size: 10px;
+}
+
+.Trailer{
+    width: 47vw;
+    max-width: 300px;
+    min-width: 300px;
+}
+.review{
+    margin-right: 20px;
+}
+
+.ml-1 {
+    margin-right: 1vw;
+}
+
+detailing button{
+    width: 150px;
+    height: 50px;
+}
+
+.star{
+    color: rgb(255, 208, 0);
+}
+
+/* slider */
+.new a{
+	text-decoration:none;
+}
+.box{
+	width:300px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 25px;
+}
+.slide-img{
+	height: 175px;
+	position:relative;
+}
+.slide-img img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+
+.type{
+	display: flex;
+	flex-direction: column;
+}
+.type a{
+	color:#222222;
+	margin: 5px 0px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+.type span{
+	color:rgba(26,26,26,0.5);
+}
+.price{
+	color: #333333;
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: poppins;
+	letter-spacing: 0.5px;
+}
+.overlaynew{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	height: 100%;
+	background-color: rgba(229, 89, 71, .2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy-btn{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	color:#252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.buy-btn:hover{
+	color: white;
+	background-color:#f7714f;
+	transition: all ease 0.3s;
+}
+.overlaynew{
+	visibility: hidden;
+}
+.slide-img:hover .overlaynew{
+	visibility: visible;
+	animation:fade 1s;
+}
+ 
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.slider{
+	width:100%;
+	height: 15rem; /*untuk mengubah atas */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tiktok .slide-img{
+	height: 350px !important;
+	position: relative !important;
+}
+
+.tiktok .slider {
+	height: 27rem !important;
+}
